@@ -1,0 +1,41 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 微軟正黑體;
+}
+
+nav {
+  padding: 30px;
+  height: 100px;
+  background: #ccc;
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+section {
+  height: 100vh;
+  text-align: center;
+  line-height: 100vh;
+  font-size: 30px;
+  color: white;
+}
+
+section:nth-of-type(odd) {
+  background: #5456a7;
+}
+
+section:nth-of-type(even) {
+  background: #e4a2d0;
+}
+/*# sourceMappingURL=style.css.map */
