@@ -38,4 +38,14 @@ section:nth-of-type(odd) {
 section:nth-of-type(even) {
   background: #e4a2d0;
 }
+
+#gotop {
+  background-image: url(./top.png);
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
