@@ -14,6 +14,7 @@ https://kyriehavegoodday.github.io/Web_scroll_effect/
 data-st-target | 要前往元素的 ID 名稱 
 data-st-duration | 捲動所花的時間 (毫秒) 
 data-st-offset | 位移的大小 
+
 ##箭頭說明
 屬性名稱|屬性說明
 ---------------|----------------
