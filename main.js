@@ -5,11 +5,14 @@ $("a").each(function (index, element) {
     
     var target= $(this).attr("data-st-target");
     var duration= $(this).attr("data-duration");
+    var offsetTop = $(this).attr("data-st-offset");
     console.log("名稱"+target);
     console.log("時間"+duration);
 
     var offset = $("#" + target).offset();
     var top = offset.top;
+
+    if (offsetTop) top -= offsetTop;
 
     console.log("上方：" + top);
     
@@ -21,3 +24,8 @@ $("a").each(function (index, element) {
     });
     
 });
+
+$("html").on("mousewheel", function () {
+    $("html").stop();
+});
+
